@@ -25,3 +25,7 @@ func (a *App) startup(ctx context.Context) {
 func (a *App) Greet(name string) string {
 	return fmt.Sprintf("Assalomu alaykum %s, Qaneyey!", name)
 }
+
+func (a *App) Salom(name string) string {
+	return fmt.Sprintf("Valeykum assalom %s, Qaneyey!", name)
+}

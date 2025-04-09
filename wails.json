@@ -9,5 +9,39 @@
   "author": {
     "name": "normatov07",
     "email": "normatov.milliy@gmail.com"
+  },
+
+   "info": {
+    "companyName": "",
+    "productName": "",
+    "productVersion": "",
+    "copyright": "",
+    "comments": "",
+    "fileAssociations": [
+      {
+        "ext": "png",
+        "name": "appicon",
+        "description": "Wails file",
+        "iconName": "appicon",
+        "role": "Editor"
+      }
+    ],
+    "protocols": [
+      {
+        "scheme": "myapp",
+        "description": "Myapp protocol",
+        "role": "Editor"
+      }
+    ]
+  },
+  "nsisType": "multiple",
+  "obfuscated": false,
+  "garbleargs": "",
+  "bindings": {
+    "ts_generation": {
+      "prefix": "incard_",
+      "suffix": "pincard_",
+      "outputType": "classes"
+    }
   }
 }
